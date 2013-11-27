@@ -1,0 +1,40 @@
+1. Account Management
+2. Customer Management
+3. Journal Entry
+4. 
+
+
+
+1. Application  Maintenance.
+	Upload module SOAP xsd or xml defined by Flexcube.
+	Parse it and display the fields and definition of the fields e.g Mandatory, Length, Datatype, Full Description
+	Input application specific data data definition
+
+
+
+
+Component.
+
+1. Format. XML, CSV, JSON for input and output
+2. Transport. JMS, SOAP, REST, HTTP, FTP, SFTP
+3. Data mapping. A scripting facility to generate complex mapping. Basic field to field mapping 
+
+'%s + %s, 0.3%d' (FLD1, FLD2, FLD4)
+
+Multiple Format and 
+
+
+
+
+Flow.
+
+
+Define Application/Service with a definite startpoints(transport) and endpoints(transport).
+
+
+Application Component(Products).
+
+zato quickstart create proj/qs-1/ \ postgresql localhost 5432 zato postgres sunday123 \ localhost 6379 --verbose
+
+
+http://www.washingtonpost.com/blogs/worldviews/wp/2013/08/12/40-maps-that-explain-the-world/

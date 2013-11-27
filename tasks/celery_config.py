@@ -1,0 +1,7 @@
+BROKER_URL = 'redis://localhost:6379/0'#'amqp://'
+CELERY_RESULT_BACKEND = "redis://localhost/0"#'amqp://'
+
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERYD_HIJACK_ROOT_LOGGER=False
+CELERY_JOB_TIMEOUT = 10

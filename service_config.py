@@ -1,0 +1,11 @@
+HTTP_LONG_PROCESS_REQUEST = 'http://localhost:5002/cts/api/v1.0/processes_status'
+HTTP_LONG_PROCESS_TASK_LIST_REQUEST = 'http://localhost:5002/cts/api/v1.0/process_task_list'
+HTTP_INWARD_ITEM_REQUEST = 'http://localhost:5002/cts/api/v1.0/inward'
+HTTP_INWARD_IMAGE_REQUEST = 'http://localhost:5002/cts/api/v1.0/inward'
+HTTP_SEQUENCE_REQUEST = 'http://localhost:5002/cts/api/v1.0/db_scala_service/'
+HTTP_OUTWARD_ITEMS='http://localhost:5002/cts/api/v1.0/outward'
+CELERY_TASKS_LIST = ['tasks.cba.enquiries_task', 'tasks.gha.cts.inward_task', 'tasks.gha.cts.outward_task']
+COUNTRY='GHA'
+APPLICATION='CTS'
+SERVER_PORT = 5002
+PROCESS_COUNT=4
